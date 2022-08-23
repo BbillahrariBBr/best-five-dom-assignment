@@ -97,16 +97,17 @@
                     <div class="">
                         <div class=" grid grid-cols-2 p-3 mx-2">
                             <p class="text-white">Per player</p>
-                            <input type="text" class="mx-1 bg-black border border-white text-white">
+                            <input id="inp-cost-perplayer" type="text"
+                                class="mx-1 bg-black border border-white text-white">
                         </div>
                         <div>
-                            <button
+                            <button id="btn-calculate"
                                 class="btn bg-blue-500 px-5 py-1 w-60 mx-4 mb-5 mt-3 rounded-lg text-white">Calculate</button>
-                            <p class="text-white text-center">Player Expenses: $ <span>0</span></p>
+                            <p class="text-white text-center">Player Expenses: $ <span id="text-player-exp">0</span></p>
                         </div>
                         <div class=" grid grid-cols-2 p-3 mx-2">
                             <p class="text-white">Manager</p>
-                            <input type="text" class="mx-1 bg-black border border-white text-white">
+                            <input id="" type="text" class="mx-1 bg-black border border-white text-white">
                         </div>
 
                         <div class=" grid grid-cols-2 p-3 mx-2">
@@ -133,6 +134,11 @@
         </div>
 
     </footer>
+
+    <!-- js -->
+    <script src="js/utilities.js"></script>
+    <script src="js/selectedV.js"></script>
+    <script src="js/budget.js"></script>
 
 </body>
 
