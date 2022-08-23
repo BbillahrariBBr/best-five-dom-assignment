@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BD Team</title>
     <!-- tailwind css cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind Customize -->
@@ -63,9 +63,15 @@
                     <button class="btn bg-blue-500 px-5 py-1 w-52 mx-9 mb-5 rounded-lg">SELECT</button>
                 </div>
                 <div class="bg-black text-white rounded-lg">
-                    <img src="images/01.shakib.png" alt="">
-                    <p class="text-center font-semibold mt-2 mb-2 py-1">Shakib Al Hasan</p>
-                    <button class="btn bg-blue-500 px-5 py-1 w-52 mx-9 mb-5 rounded-lg">SELECT</button>
+                    <div>
+                        <h2 class="text-2xl text-center font-bold p-2 mt-2 mb-2">Selected-V</h2>
+                    </div>
+                    <div>
+                        <ol>
+
+                        </ol>
+
+                    </div>
                 </div>
 
 
@@ -84,10 +90,36 @@
                     <p class="text-center font-semibold mt-2 mb-2 py-1">Mushfiqur Rahim</p>
                     <button class="btn bg-blue-500 px-5 py-1 w-52 mx-9 mb-5 rounded-lg">SELECT</button>
                 </div>
-                <div class="bg-black text-white rounded-lg">
-                    <img src="images/01.shakib.png" alt="">
-                    <p class="text-center font-semibold mt-2 mb-2 py-1">Shakib Al Hasan</p>
-                    <button class="btn bg-blue-500 px-5 py-1 w-52 mx-9 mb-5 rounded-lg">SELECT</button>
+                <div class="bg-black  rounded-lg">
+                    <div>
+                        <h2 class="text-2xl text-center text-white font-bold p-2 mt-2 mb-2">Budget</h2>
+                    </div>
+                    <div class="">
+                        <div class=" grid grid-cols-2 p-3 mx-2">
+                            <p class="text-white">Per player</p>
+                            <input type="text" class="mx-1 bg-black border border-white text-white">
+                        </div>
+                        <div>
+                            <button
+                                class="btn bg-blue-500 px-5 py-1 w-60 mx-4 mb-5 mt-3 rounded-lg text-white">Calculate</button>
+                            <p class="text-white text-center">Player Expenses: $ <span>0</span></p>
+                        </div>
+                        <div class=" grid grid-cols-2 p-3 mx-2">
+                            <p class="text-white">Manager</p>
+                            <input type="text" class="mx-1 bg-black border border-white text-white">
+                        </div>
+
+                        <div class=" grid grid-cols-2 p-3 mx-2">
+                            <p class="text-white">Coach</p>
+                            <input type="text" class="mx-1 bg-black border border-white text-white">
+                        </div>
+                        <div class="mb-1">
+                            <button class="btn bg-blue-500 px-5 py-1 w-60 mx-4 mb-5 mt-3 rounded-lg text-white">Total
+                                Calculate</button>
+                            <p class="text-white text-center">Total: $ <span class="text-headColor">0</span></p>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
