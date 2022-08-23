@@ -28,10 +28,10 @@ function getPlayerName(id1, id2) {
             btn.style.background = '#A2A9AF'
         }
         else {
-            alert("You Can't select more Than 5");
+            alert("You Can't select more Than 5 players");
             return
         }
-        console.log(btnClicked);
+        //console.log(btnClicked);
 
     })
 
