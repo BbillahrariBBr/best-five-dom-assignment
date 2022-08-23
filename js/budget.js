@@ -1,7 +1,8 @@
 
 document.getElementById('btn-calculate').addEventListener('click', function (event) {
     const costPerPlayer = stringToInt('inp-cost-perplayer');
-    document.getElementById('text-player-exp').innerText = costPerPlayer;
+    const numberofPlayer = document.getElementsByTagName('li').length;
+    document.getElementById('text-player-exp').innerText = costPerPlayer * numberofPlayer;
     document.getElementById('inp-cost-perplayer').value = '';
 })
 document.getElementById('btn-total-calc').addEventListener('click', function (event) {

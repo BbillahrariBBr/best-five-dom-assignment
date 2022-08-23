@@ -27,3 +27,6 @@ function getPlayerName(id1, id2) {
 
     })
 }
+function btnEnable() {
+    document.getElementsByTagName('button').setAttribute('disabled', false);
+}
