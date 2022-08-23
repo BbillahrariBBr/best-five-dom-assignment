@@ -12,7 +12,7 @@
 
 
 // })
-let count = 0;
+
 getPlayerName('btn-player1', 'player1');
 getPlayerName('btn-player2', 'player2');
 getPlayerName('btn-player3', 'player3');

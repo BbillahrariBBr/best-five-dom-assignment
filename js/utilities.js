@@ -12,7 +12,6 @@ function stringToIntInnerText(id) {
 }
 
 function getPlayerName(id1, id2) {
-
     document.getElementById(id1).addEventListener('click', function (event) {
         const playerName = document.getElementById(id2).innerText;
         const orderList = document.getElementById('player-list');
