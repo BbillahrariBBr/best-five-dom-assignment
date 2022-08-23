@@ -1,6 +1,7 @@
 function stringToInt(id) {
     let stringValue = document.getElementById(id).value;
     const numberValue = parseInt(stringValue);
+    //console.log(isNaN(numberValue));
     return numberValue;
 }
 
@@ -26,7 +27,4 @@ function getPlayerName(id1, id2) {
 
 
     })
-}
-function btnEnable() {
-    document.getElementsByTagName('button').setAttribute('disabled', false);
 }
